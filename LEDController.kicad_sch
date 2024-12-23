@@ -1060,49 +1060,50 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:TB001-500-04BE"
+		(symbol "SamacSys_Parts:TB002-500-04BE"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 16.51 7.62 0)
+				(at 8.89 6.35 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "TB001-500-04BE"
-				(at 16.51 5.08 0)
+			(property "Value" "TB002-500-04BE"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "TB00150004BE"
-				(at 16.51 -94.92 0)
+			(property "Footprint" "CONN4_TB002-500_787x299_CUD"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-				(at 16.51 -194.92 0)
+			(property "Datasheet" "TB002-500-04BE"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 4 poles, CUI Blue, slotted screw, PCB mount"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1111,69 +1112,226 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "12.9"
-				(at 16.51 -394.92 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "TB001-500-04BE"
-				(at 16.51 -494.92 0)
+			(property "ki_keywords" "TB002-500-04BE"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-				(at 16.51 -594.92 0)
+			(property "ki_fp_filters" "CONN4_TB002-500_787x299_CUD"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Same Sky"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "TB002-500-04BE_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TB001-500-04BE"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TB001-500-04BE_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -10.16)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
 					(name "1"
@@ -1191,7 +1349,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
@@ -1209,7 +1367,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "3"
@@ -1227,7 +1385,273 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TB002-500-04BE_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "4"
@@ -1345,18 +1769,6 @@
 		)
 	)
 	(junction
-		(at 58.42 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01c814bd-eba5-4ef8-9358-aa83379b87b3")
-	)
-	(junction
-		(at 58.42 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "068465e7-930b-475b-87d5-446fedf3bed6")
-	)
-	(junction
 		(at 110.49 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1369,28 +1781,10 @@
 		(uuid "116903d7-5fc0-4438-9436-3264245fecb9")
 	)
 	(junction
-		(at 81.28 104.14)
+		(at 43.18 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e802ad0-c202-46c3-8cf4-a5885d5d1689")
-	)
-	(junction
-		(at 58.42 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2277ff8e-aba1-4b6f-9cd9-2bdb7c7be9cc")
-	)
-	(junction
-		(at 58.42 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "258d1678-0527-4561-9093-e0d115721513")
-	)
-	(junction
-		(at 78.74 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "323d4c3e-9b99-41d0-8656-5bb0a39701e4")
+		(uuid "18866348-9e79-4cc8-a924-5fcd9ee6a579")
 	)
 	(junction
 		(at 110.49 73.66)
@@ -1423,22 +1817,10 @@
 		(uuid "4a93dafe-74e6-4f3f-b5f4-0e97d4e5d5ac")
 	)
 	(junction
-		(at 58.42 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ec0bc23-b9ce-4204-9e55-3448f535d28b")
-	)
-	(junction
 		(at 78.74 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bc0567c-d730-4b33-9fa9-132aec9f0c7d")
-	)
-	(junction
-		(at 58.42 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dd2585d-fa40-4b92-8f7b-574cc4adf233")
 	)
 	(junction
 		(at 81.28 68.58)
@@ -1447,22 +1829,40 @@
 		(uuid "6611e91f-fabf-41ce-b28d-7bffefd262eb")
 	)
 	(junction
-		(at 58.42 95.25)
+		(at 43.18 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66167935-3e7c-4cdf-9432-f04ebea216f4")
+		(uuid "7353793f-d38d-4148-a2db-55e4b26f7e11")
 	)
 	(junction
-		(at 78.74 130.81)
+		(at 58.42 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "785fe594-5e7c-47cf-83dc-f952d858dea3")
+		(uuid "78db9a30-7fad-47b8-88e5-e69eaca6e589")
+	)
+	(junction
+		(at 43.18 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a4ca1a1-526a-4b08-9320-69f393116213")
+	)
+	(junction
+		(at 58.42 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a41797f-34ed-487a-bc4d-c2be7e327b1f")
 	)
 	(junction
 		(at 81.28 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a0325f5-125e-4557-a5ad-e69c206433b1")
+	)
+	(junction
+		(at 58.42 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a46090ac-bd59-4809-a878-5289a50978d7")
 	)
 	(junction
 		(at 81.28 77.47)
@@ -1477,16 +1877,28 @@
 		(uuid "af86e8f1-7333-45bd-97de-9a504d035428")
 	)
 	(junction
+		(at 58.42 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b09fae3d-5609-472d-943b-797610bda97c")
+	)
+	(junction
+		(at 58.42 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5e6ad0b-aab9-4973-8334-832696ac7876")
+	)
+	(junction
 		(at 78.74 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9e6064e-e9a5-4732-afc0-6b830798aafe")
 	)
 	(junction
-		(at 81.28 130.81)
+		(at 43.18 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2684e2f-e434-4ed7-81d1-2cc11603b1c4")
+		(uuid "bb9529d7-8bc8-4d7e-b084-ca2c4669a7a7")
 	)
 	(junction
 		(at 110.49 72.39)
@@ -1495,28 +1907,10 @@
 		(uuid "c29efc58-49b7-48d4-9222-8a6ccbd10fec")
 	)
 	(junction
-		(at 78.74 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c37f02f9-3245-4a24-91e6-06dddc327cc6")
-	)
-	(junction
-		(at 58.42 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5663288-15f6-42bb-b066-fd4580c00fa8")
-	)
-	(junction
 		(at 78.74 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c89a681f-a4b3-4e1a-8339-ae34ff4a093b")
-	)
-	(junction
-		(at 81.28 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c95f46cf-9f0d-464a-b54f-9285391bde81")
 	)
 	(junction
 		(at 78.74 104.14)
@@ -1525,34 +1919,22 @@
 		(uuid "cb5aaa6c-1019-472a-a262-f5af515060f8")
 	)
 	(junction
-		(at 58.42 86.36)
+		(at 43.18 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da39fdc1-0512-4b19-bb9e-ecd77b801b69")
+		(uuid "d13c2242-5f6d-4805-9006-96e8c7e99be8")
 	)
 	(junction
-		(at 58.42 121.92)
+		(at 58.42 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e266a3b8-1882-41d4-8aeb-f35ffaf1925e")
+		(uuid "d7017f9a-b743-4aa2-9151-ce5589476bba")
 	)
 	(junction
 		(at 81.28 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e30a800b-74ea-4c50-b104-7d3ca83f3972")
-	)
-	(junction
-		(at 78.74 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e52f0773-dc6c-4596-9680-d097820cc468")
-	)
-	(junction
-		(at 81.28 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f142204f-e7f6-406f-a647-7bb9aae77649")
 	)
 	(junction
 		(at 146.05 68.58)
@@ -1582,16 +1964,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 95.25) (xy 58.42 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bbd95a7-5041-4fc2-b0e1-1def9185e2cf")
-	)
-	(wire
-		(pts
 			(xy 148.59 45.72) (xy 166.37 45.72)
 		)
 		(stroke
@@ -1612,16 +1984,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 138.43) (xy 49.53 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "129182ab-afae-4850-907c-576bc7fd34ab")
-	)
-	(wire
-		(pts
 			(xy 142.24 71.12) (xy 146.05 71.12)
 		)
 		(stroke
@@ -1629,6 +1991,16 @@
 			(type default)
 		)
 		(uuid "16554a51-bdbd-41ff-b1cd-ef96cbe61a27")
+	)
+	(wire
+		(pts
+			(xy 52.07 76.2) (xy 43.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18854893-e3d2-40ff-a3a6-b03d251815f7")
 	)
 	(wire
 		(pts
@@ -1652,13 +2024,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 118.11) (xy 49.53 118.11)
+			(xy 57.15 68.58) (xy 57.15 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21635a09-c024-45bc-b454-59156d44f8bb")
+		(uuid "1c5ee530-205b-4f9c-902a-9d1c7711e258")
 	)
 	(wire
 		(pts
@@ -1682,23 +2054,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 78.74 124.46)
+			(xy 43.18 90.17) (xy 43.18 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e0c68d4-7e8b-480d-ac6f-d295a3c42e3f")
-	)
-	(wire
-		(pts
-			(xy 49.53 62.23) (xy 53.34 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c14b6d-a186-41e3-8f25-f2edf680fa59")
+		(uuid "2a01cdc2-eecf-46c5-a1ad-a442e850a93e")
 	)
 	(wire
 		(pts
@@ -1722,26 +2084,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 133.35) (xy 53.34 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a5726d6-1941-458a-a99b-264f493b5e84")
-	)
-	(wire
-		(pts
-			(xy 49.53 115.57) (xy 53.34 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c9b33ca-82a3-4880-bc23-4fb343f0c99b")
-	)
-	(wire
-		(pts
 			(xy 78.74 104.14) (xy 81.28 104.14)
 		)
 		(stroke
@@ -1749,36 +2091,6 @@
 			(type default)
 		)
 		(uuid "3d885756-2f6f-4d6d-9488-e39a732ab2f0")
-	)
-	(wire
-		(pts
-			(xy 58.42 68.58) (xy 50.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e215180-e74a-4add-9232-87c9b8a7527e")
-	)
-	(wire
-		(pts
-			(xy 58.42 130.81) (xy 58.42 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e94b83f-04ef-4543-be1a-0269e43dd6cc")
-	)
-	(wire
-		(pts
-			(xy 50.8 82.55) (xy 49.53 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef64c26-7188-44e7-b2aa-b6027012119d")
 	)
 	(wire
 		(pts
@@ -1792,23 +2104,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 81.28 121.92)
+			(xy 43.18 78.74) (xy 43.18 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "413aed6e-b955-4a1b-9296-367888385bd1")
+		(uuid "40600bdf-0d74-427c-a004-0f93dc3a2348")
 	)
 	(wire
 		(pts
-			(xy 78.74 113.03) (xy 81.28 113.03)
+			(xy 55.88 77.47) (xy 55.88 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48a085cd-54b9-4d59-a119-5623d247bd02")
+		(uuid "4d73176b-e71f-44aa-a53e-425096696e6d")
 	)
 	(wire
 		(pts
@@ -1822,23 +2134,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 85.09) (xy 49.53 86.36)
+			(xy 55.88 64.77) (xy 43.18 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5131966f-a948-4929-a91a-fab08fc86d13")
-	)
-	(wire
-		(pts
-			(xy 50.8 100.33) (xy 49.53 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "538a11cb-ec1d-4b96-89f6-c0b6c3e6d260")
+		(uuid "50ddf846-b0e6-4a51-bdaa-ece7c7ad7e37")
 	)
 	(wire
 		(pts
@@ -1862,16 +2164,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 120.65) (xy 49.53 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c0c268b-6351-4de6-96fb-862dbe46b7c4")
-	)
-	(wire
-		(pts
 			(xy 78.74 95.25) (xy 81.28 95.25)
 		)
 		(stroke
@@ -1879,16 +2171,6 @@
 			(type default)
 		)
 		(uuid "66b30cd9-ba7e-42e6-b5e3-867423a2658c")
-	)
-	(wire
-		(pts
-			(xy 58.42 104.14) (xy 50.8 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67bd3867-5bc5-4041-b489-6a0e6eafcfe7")
 	)
 	(wire
 		(pts
@@ -1912,13 +2194,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 121.92) (xy 50.8 121.92)
+			(xy 43.18 81.28) (xy 43.18 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a05f82d-667e-4b57-ba5a-0af7cc452d7d")
+		(uuid "744bea19-087a-45cf-ba0e-ad31c7ff3d57")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 54.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7613bdaf-14b9-4bdb-a889-f040e2ccb674")
 	)
 	(wire
 		(pts
@@ -1932,13 +2224,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 80.01) (xy 53.34 80.01)
+			(xy 53.34 73.66) (xy 43.18 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b897bf6-864f-46e4-8867-17eaba0e20db")
+		(uuid "7efd76a0-8281-47f9-b779-fe43399684c4")
 	)
 	(wire
 		(pts
@@ -1952,13 +2244,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 86.36) (xy 50.8 82.55)
+			(xy 58.42 68.58) (xy 57.15 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "844ff7cc-532d-41e1-b978-0d8df0e89868")
+		(uuid "87f748de-c28e-4d3c-86b5-f015e79419f4")
 	)
 	(wire
 		(pts
@@ -1982,26 +2274,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 139.7) (xy 81.28 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92339ba5-ce3e-4e9a-8cae-d0538d50bf85")
-	)
-	(wire
-		(pts
-			(xy 49.53 102.87) (xy 49.53 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92da86f8-9b68-428b-8301-c86add09934a")
-	)
-	(wire
-		(pts
 			(xy 116.84 92.71) (xy 142.24 92.71)
 		)
 		(stroke
@@ -2022,6 +2294,26 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 86.36) (xy 54.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9495a879-a2a4-4f22-b363-10dc60f78c59")
+	)
+	(wire
+		(pts
+			(xy 54.61 67.31) (xy 43.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b36d40-4d8e-43e5-8c51-0fa5583f427f")
+	)
+	(wire
+		(pts
 			(xy 81.28 59.69) (xy 78.74 59.69)
 		)
 		(stroke
@@ -2029,16 +2321,6 @@
 			(type default)
 		)
 		(uuid "99ea480f-609e-4334-a725-3193dab9abe5")
-	)
-	(wire
-		(pts
-			(xy 58.42 139.7) (xy 50.8 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad939ab-ed32-4b52-b629-8e80035f2bd3")
 	)
 	(wire
 		(pts
@@ -2062,13 +2344,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 86.36) (xy 50.8 86.36)
+			(xy 58.42 95.25) (xy 53.34 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ca394e6-62ee-48d4-a5c7-a1f5beb52e7a")
+		(uuid "9ca1a130-90ac-4f66-9814-a633c3dc7785")
 	)
 	(wire
 		(pts
@@ -2082,26 +2364,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 121.92) (xy 58.42 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1877b0a-cb80-42fa-ba4b-305378eb9dc3")
-	)
-	(wire
-		(pts
-			(xy 49.53 97.79) (xy 53.34 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2058643-ac59-4a83-ac8e-61e174190f9e")
-	)
-	(wire
-		(pts
 			(xy 58.42 104.14) (xy 58.42 106.68)
 		)
 		(stroke
@@ -2109,36 +2371,6 @@
 			(type default)
 		)
 		(uuid "a2d4348f-fc85-4ec0-a40e-30aabe549d16")
-	)
-	(wire
-		(pts
-			(xy 50.8 64.77) (xy 49.53 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e2a822-be14-42ac-ac17-72a33af32503")
-	)
-	(wire
-		(pts
-			(xy 78.74 113.03) (xy 78.74 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ffdb05-3be3-40fb-a94c-b9b491785cf3")
-	)
-	(wire
-		(pts
-			(xy 49.53 59.69) (xy 58.42 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a832d9c9-c4e6-4c0a-91bf-44d51e217888")
 	)
 	(wire
 		(pts
@@ -2152,43 +2384,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 67.31) (xy 49.53 68.58)
+			(xy 53.34 95.25) (xy 53.34 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9f200c0-364b-481e-a50e-f820321611b0")
+		(uuid "ace24591-be8a-4c1c-817d-e0ca4beb241d")
 	)
 	(wire
 		(pts
-			(xy 81.28 121.92) (xy 81.28 113.03)
+			(xy 43.18 59.69) (xy 58.42 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aeb47ec7-6a95-4cf8-aa36-c9bb5f33928e")
-	)
-	(wire
-		(pts
-			(xy 49.53 130.81) (xy 58.42 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2b69fae-a34a-4b1b-ad47-b68452e54ed3")
-	)
-	(wire
-		(pts
-			(xy 50.8 135.89) (xy 49.53 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b531c3ac-2086-4e50-a741-657780fe05d4")
+		(uuid "afff926a-c8a8-4180-8ba4-66f5cea2e524")
 	)
 	(wire
 		(pts
@@ -2199,6 +2411,16 @@
 			(type default)
 		)
 		(uuid "b72cadb4-b04a-42ed-af39-80a008833c78")
+	)
+	(wire
+		(pts
+			(xy 58.42 104.14) (xy 52.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ca1bc4-d310-45e0-ac3f-7825e92b0672")
 	)
 	(wire
 		(pts
@@ -2242,43 +2464,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 130.81) (xy 78.74 133.35)
+			(xy 43.18 62.23) (xy 57.15 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c07d61d9-042d-474b-a4f5-673bda9dcd97")
-	)
-	(wire
-		(pts
-			(xy 50.8 68.58) (xy 50.8 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5c066e4-b763-40c9-aac8-8824b202bc57")
-	)
-	(wire
-		(pts
-			(xy 50.8 121.92) (xy 50.8 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c780a65f-81f0-46e5-8c4c-218d1872a187")
-	)
-	(wire
-		(pts
-			(xy 81.28 113.03) (xy 81.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc2f49bc-803b-4ecc-baad-13c83be3d9e4")
+		(uuid "cda92ece-04d3-44c9-822e-28eee4ef8d77")
 	)
 	(wire
 		(pts
@@ -2302,13 +2494,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 77.47) (xy 58.42 77.47)
+			(xy 58.42 77.47) (xy 55.88 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1cf39bd-97ba-47ad-a207-1d19e1179a94")
+		(uuid "d226250a-8206-4c57-aed6-8606852819f9")
 	)
 	(wire
 		(pts
@@ -2322,16 +2514,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 130.81) (xy 81.28 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d568d24d-afba-46ad-ad43-9c569dd160f6")
-	)
-	(wire
-		(pts
 			(xy 138.43 71.12) (xy 142.24 71.12)
 		)
 		(stroke
@@ -2339,6 +2521,16 @@
 			(type default)
 		)
 		(uuid "d8d518e3-deed-4eb8-9221-10d966bf1e82")
+	)
+	(wire
+		(pts
+			(xy 52.07 104.14) (xy 52.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99d9964-4c0d-4fbb-99c3-491a20ca8714")
 	)
 	(wire
 		(pts
@@ -2352,43 +2544,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 113.03) (xy 58.42 115.57)
+			(xy 43.18 92.71) (xy 43.18 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db7b72fd-aa03-4b99-945d-9c8abdc4f890")
-	)
-	(wire
-		(pts
-			(xy 81.28 139.7) (xy 81.28 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcaa1f85-5424-4b86-b2ee-4efda4d8b632")
-	)
-	(wire
-		(pts
-			(xy 50.8 139.7) (xy 50.8 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce3f3a0-f61c-4af9-8977-b57c9ac319b9")
-	)
-	(wire
-		(pts
-			(xy 78.74 139.7) (xy 78.74 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd8c8fd9-62d4-48e0-b132-7d2ca8b905cd")
+		(uuid "dc5a19a9-ac1c-42f5-8738-585f64f7bdf3")
 	)
 	(wire
 		(pts
@@ -2412,6 +2574,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 87.63) (xy 43.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e77866-28db-4029-b0d4-feb5de21e0a7")
+	)
+	(wire
+		(pts
 			(xy 78.74 86.36) (xy 81.28 86.36)
 		)
 		(stroke
@@ -2419,36 +2591,6 @@
 			(type default)
 		)
 		(uuid "e25ecc66-83ac-407e-a054-4440a01ee687")
-	)
-	(wire
-		(pts
-			(xy 81.28 130.81) (xy 81.28 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e891c902-e783-4338-b9d3-61a7929dffe3")
-	)
-	(wire
-		(pts
-			(xy 49.53 113.03) (xy 58.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b38a3b-1c60-471a-a604-4bd1f3f8aac9")
-	)
-	(wire
-		(pts
-			(xy 58.42 139.7) (xy 58.42 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb060eb6-811d-4c65-a607-a19a55675863")
 	)
 	(wire
 		(pts
@@ -2482,16 +2624,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 104.14) (xy 50.8 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f79159b2-7943-402d-b828-e0e4e730cff1")
-	)
-	(wire
-		(pts
 			(xy 168.91 45.72) (xy 168.91 41.91)
 		)
 		(stroke
@@ -2509,6 +2641,16 @@
 			(type default)
 		)
 		(uuid "f92df8b8-5153-428c-9192-9124bc65b9ec")
+	)
+	(wire
+		(pts
+			(xy 43.18 95.25) (xy 43.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb75830-9b57-4e81-9964-af6090a0369e")
 	)
 	(wire
 		(pts
@@ -2559,16 +2701,6 @@
 			)
 		)
 		(uuid "c5111a9c-abc6-4631-a22e-e42be9f071e7")
-	)
-	(text "Look at different terminals\n"
-		(exclude_from_sim no)
-		(at 38.1 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cfe0dd28-f9d6-403a-b28f-8576eb22bcd0")
 	)
 	(text "Look at making all these ato as well"
 		(exclude_from_sim no)
@@ -2773,72 +2905,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 49.53 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13ef4777-0aa4-4f0f-8ca5-98ee49ebc14b")
-		(property "Reference" "#PWR05"
-			(at 49.53 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da9fea09-703e-48df-84cc-8863a8c35beb")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:J115F11CH5VDCS61.5U")
 		(at 110.49 68.58 0)
 		(unit 1)
@@ -2988,326 +3054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:TB001-500-04BE")
-		(at 49.53 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "241def51-2d67-4289-b63d-176e80cb01e1")
-		(property "Reference" "J12"
-			(at 33.02 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TB001-500-04BE"
-			(at 33.02 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TB00150004BE"
-			(at 33.02 172.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-			(at 33.02 272.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 4 poles, CUI Blue, slotted screw, PCB mount"
-			(at 49.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12.9"
-			(at 33.02 472.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TB001-500-04BE"
-			(at 33.02 572.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-			(at 33.02 672.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 33.02 772.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TB001-500-04BE"
-			(at 33.02 872.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "241a9a77-21df-4a85-bbc0-9d8f89a3648c")
-		)
-		(pin "2"
-			(uuid "01295665-d5ba-481e-b0a2-12ee90500ecf")
-		)
-		(pin "3"
-			(uuid "becb9964-6bb4-4762-84cd-0ce1eff39675")
-		)
-		(pin "1"
-			(uuid "c7399eca-401b-4e18-8a44-79cc3d8ece96")
-		)
-		(instances
-			(project "LEDController"
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28566788-490c-4740-aa77-45955791e6e4")
-		(property "Reference" "#PWR03"
-			(at 49.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da9fea09-703e-48df-84cc-8863a8c35bec")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:3557-2")
-		(at 58.42 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29810b96-08d8-4008-a81b-143ddb170bb6")
-		(property "Reference" "J7"
-			(at 68.58 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3557-2"
-			(at 68.58 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "3557-2"
-			(at 74.93 207.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=296"
-			(at 74.93 307.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "THM 2 in 1 Auto Blade Holder P/N 3557-2"
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 74.93 507.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "534-3557-2"
-			(at 74.93 607.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-2?qs=cxy41lVAGV%2FfbyASjpXK1g%3D%3D"
-			(at 74.93 707.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 74.93 807.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "3557-2"
-			(at 74.93 907.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94a7d5fd-6558-4885-abe3-b14ff5cf881b")
-		)
-		(pin "2"
-			(uuid "10abc328-ccf3-4607-8c7c-1464dfc1929f")
-		)
-		(pin "4"
-			(uuid "254b00ea-fa70-42b8-be5a-8ee0bb58b38a")
-		)
-		(pin "3"
-			(uuid "43663312-1a6f-4238-ad67-fec9c5729151")
-		)
-		(instances
-			(project "LEDController"
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:3557-2")
 		(at 58.42 104.14 0)
 		(unit 1)
@@ -3435,16 +3181,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 80.01 0)
+		(at 43.18 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f42f700-5c97-4731-bb41-4c8ccf535010")
-		(property "Reference" "#PWR02"
-			(at 53.34 86.36 0)
+		(uuid "410b00bf-85bb-472e-9250-2efce3f99f72")
+		(property "Reference" "#PWR01"
+			(at 43.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3199,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 85.09 0)
+			(at 43.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 80.01 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 80.01 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 80.01 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,144 +3234,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "da9fea09-703e-48df-84cc-8863a8c35bed")
+			(uuid "f0eb3268-9de1-4c23-9d08-a93f810974a6")
 		)
 		(instances
 			(project ""
 				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4167e62f-17e4-4f00-85c2-10d8a4ff0f72")
-		(property "Reference" "#PWR06"
-			(at 53.34 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da9fea09-703e-48df-84cc-8863a8c35bee")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6253ff9f-ef17-4a6d-b9ed-c93a799a1c05")
-		(property "Reference" "#PWR09"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da9fea09-703e-48df-84cc-8863a8c35bef")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR09")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3828,134 +3442,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:TB001-500-04BE")
-		(at 49.53 130.81 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6952ab96-69f2-403e-9759-105ab5c9949e")
-		(property "Reference" "J15"
-			(at 33.02 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TB001-500-04BE"
-			(at 33.02 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TB00150004BE"
-			(at 33.02 225.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-			(at 33.02 325.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 4 poles, CUI Blue, slotted screw, PCB mount"
-			(at 49.53 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12.9"
-			(at 33.02 525.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TB001-500-04BE"
-			(at 33.02 625.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-			(at 33.02 725.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 33.02 825.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TB001-500-04BE"
-			(at 33.02 925.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6426a767-f030-4ec1-a716-1c62f6d9fb52")
-		)
-		(pin "2"
-			(uuid "6786ebcb-8fa4-4b89-b67e-c4dc11c80244")
-		)
-		(pin "3"
-			(uuid "ffe378eb-8455-4328-83c4-af7e3f2a69b7")
-		)
-		(pin "1"
-			(uuid "82bbe472-7420-4982-803a-1fe1a096ff6c")
-		)
-		(instances
-			(project "LEDController"
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:S1M")
 		(at 92.71 55.88 270)
 		(unit 1)
@@ -4092,72 +3578,6 @@
 			(project ""
 				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e4557d6-c12a-467c-82cd-1f3785a9c8b2")
-		(property "Reference" "#PWR08"
-			(at 53.34 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da9fea09-703e-48df-84cc-8863a8c35bf0")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4377,328 +3797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:TB001-500-04BE")
-		(at 49.53 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c6e6512-99b0-4423-8dbb-c0d3f3e4990a")
-		(property "Reference" "J13"
-			(at 33.02 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TB001-500-04BE"
-			(at 33.02 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TB00150004BE"
-			(at 33.02 190.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-			(at 33.02 290.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 4 poles, CUI Blue, slotted screw, PCB mount"
-			(at 49.53 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12.9"
-			(at 33.02 490.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TB001-500-04BE"
-			(at 33.02 590.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-			(at 33.02 690.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 33.02 790.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TB001-500-04BE"
-			(at 33.02 890.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a46905e0-24ac-46ce-a1dc-b852ae5f0cd5")
-		)
-		(pin "2"
-			(uuid "ef286191-52db-4b6c-bceb-d55090460d0c")
-		)
-		(pin "3"
-			(uuid "59754d06-7210-455d-88c2-5c847856c266")
-		)
-		(pin "1"
-			(uuid "c96d9407-52ee-4349-8855-b9b1d0acb9e1")
-		)
-		(instances
-			(project "LEDController"
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TB001-500-04BE")
-		(at 49.53 113.03 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cb1dbc3-4161-44fc-a3fb-7d682426f032")
-		(property "Reference" "J14"
-			(at 33.02 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TB001-500-04BE"
-			(at 33.02 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TB00150004BE"
-			(at 33.02 207.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-			(at 33.02 307.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 4 poles, CUI Blue, slotted screw, PCB mount"
-			(at 49.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12.9"
-			(at 33.02 507.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TB001-500-04BE"
-			(at 33.02 607.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-			(at 33.02 707.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 33.02 807.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TB001-500-04BE"
-			(at 33.02 907.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7a51d3a5-9f9e-4ddf-a232-24e7f106b120")
-		)
-		(pin "2"
-			(uuid "915a67cb-136a-4bb6-bced-1a8bfc2c0022")
-		)
-		(pin "3"
-			(uuid "962ad0e4-3f26-4dc4-b942-981b89e37c1a")
-		)
-		(pin "1"
-			(uuid "5d53af22-49aa-454c-ae36-3cf85c1be9c2")
-		)
-		(instances
-			(project "LEDController"
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "936369c7-036f-4ea7-a964-d559b69a5f06")
-		(property "Reference" "#PWR04"
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da9fea09-703e-48df-84cc-8863a8c35bf1")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:1636170000")
 		(at 166.37 41.91 90)
 		(unit 1)
@@ -4769,52 +3867,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 49.53 121.92 0)
+		(lib_id "SamacSys_Parts:TB002-500-04BE")
+		(at 43.18 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a5de3bf5-bbab-4496-8686-c199e0a29d3c")
-		(property "Reference" "#PWR07"
-			(at 49.53 128.27 0)
+		(uuid "a4f1c2a9-8934-4e56-90cd-f20c03d62091")
+		(property "Reference" "J12"
+			(at 34.29 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TB002-500-04BE"
+			(at 34.29 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CONN4_TB002-500_787x299_CUD"
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 49.53 127 0)
+		(property "Datasheet" "TB002-500-04BE"
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 49.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 121.92 0)
+		(property "Description" ""
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,266 +3922,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "da9fea09-703e-48df-84cc-8863a8c35bf2")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TB001-500-04BE")
-		(at 49.53 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7292d68-34a5-4bbf-8fbb-660f16d0eb03")
-		(property "Reference" "J11"
-			(at 33.02 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TB001-500-04BE"
-			(at 33.02 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TB00150004BE"
-			(at 33.02 154.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-			(at 33.02 254.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 4 poles, CUI Blue, slotted screw, PCB mount"
-			(at 49.53 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12.9"
-			(at 33.02 454.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TB001-500-04BE"
-			(at 33.02 554.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?utm_currency=USD&region=nac"
-			(at 33.02 654.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 33.02 754.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TB001-500-04BE"
-			(at 33.02 854.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b31afa9d-d316-4ec1-a226-21cab56025be")
+			(uuid "92a793e4-9d13-46da-9ff3-abafa2752aae")
 		)
 		(pin "2"
-			(uuid "3ddc39ac-fd24-4e43-8c46-63c812615fa1")
+			(uuid "326c2730-1d5b-4158-bf93-b0d5be1d3e52")
 		)
 		(pin "3"
-			(uuid "709ef7ee-bee3-43a6-8f42-8859b1e7d854")
-		)
-		(pin "1"
-			(uuid "880c78c2-78f0-4468-b06f-5fe833b09b68")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:3557-2")
-		(at 58.42 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aca43fbd-616a-4a7a-817f-96872bc3ed1f")
-		(property "Reference" "J10"
-			(at 68.58 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3557-2"
-			(at 68.58 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "3557-2"
-			(at 74.93 234.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=296"
-			(at 74.93 334.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "THM 2 in 1 Auto Blade Holder P/N 3557-2"
-			(at 58.42 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 74.93 534.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "534-3557-2"
-			(at 74.93 634.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-2?qs=cxy41lVAGV%2FfbyASjpXK1g%3D%3D"
-			(at 74.93 734.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 74.93 834.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "3557-2"
-			(at 74.93 934.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59beb15c-91c2-4724-81b0-8e0b611b3363")
-		)
-		(pin "2"
-			(uuid "8d2c4d31-f431-49e7-b7c3-92c9779d1c21")
+			(uuid "7877b277-74d9-41b5-a53d-93187330268e")
 		)
 		(pin "4"
-			(uuid "082a2078-a7c0-47d5-b195-f14037984c7a")
-		)
-		(pin "3"
-			(uuid "39d1f868-5c67-4964-9a93-ff530b64b250")
+			(uuid "0c4a0cd3-1f0a-4020-9905-1688d5af50fa")
 		)
 		(instances
 			(project "LEDController"
 				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J10")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -5215,52 +4069,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 49.53 68.58 0)
+		(lib_id "SamacSys_Parts:TB002-500-04BE")
+		(at 43.18 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9f84f73-f062-44e7-9310-dbaaa28eb9e5")
-		(property "Reference" "#PWR010"
-			(at 49.53 74.93 0)
+		(uuid "b625aea5-9b63-4f42-8002-786555fb5801")
+		(property "Reference" "J17"
+			(at 34.29 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TB002-500-04BE"
+			(at 34.29 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CONN4_TB002-500_787x299_CUD"
+			(at 43.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 49.53 73.66 0)
+		(property "Datasheet" "TB002-500-04BE"
+			(at 43.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 49.53 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 68.58 0)
+		(property "Description" ""
+			(at 43.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,12 +4124,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "96f8b04f-0cd7-44e0-972e-c7c1447416f9")
+			(uuid "ade932fe-5a19-4393-8dfe-1495244f0b00")
+		)
+		(pin "2"
+			(uuid "c230cdb5-5397-42ea-98ba-625fbc67cc52")
+		)
+		(pin "3"
+			(uuid "63eeb738-6ff5-4c2b-bf02-da4fe0545c30")
+		)
+		(pin "4"
+			(uuid "9df70404-8194-4e40-bffe-2cefbcce546b")
 		)
 		(instances
-			(project "LEDController"
+			(project ""
 				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR010")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -5407,126 +4271,76 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:3557-2")
-		(at 58.42 121.92 0)
+		(lib_id "SamacSys_Parts:TB002-500-04BE")
+		(at 43.18 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ce6b709b-80e6-4901-8dbf-f97a4cf44c68")
-		(property "Reference" "J8"
-			(at 68.58 114.3 0)
+		(uuid "c1afdb22-d79b-4bd3-8e0a-0a02bd82ec5e")
+		(property "Reference" "J11"
+			(at 34.29 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "3557-2"
-			(at 68.58 116.84 0)
+		(property "Value" "TB002-500-04BE"
+			(at 34.29 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "3557-2"
-			(at 74.93 216.84 0)
+		(property "Footprint" "CONN4_TB002-500_787x299_CUD"
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=296"
-			(at 74.93 316.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "THM 2 in 1 Auto Blade Holder P/N 3557-2"
-			(at 58.42 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 74.93 516.84 0)
+		(property "Datasheet" "TB002-500-04BE"
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "534-3557-2"
-			(at 74.93 616.84 0)
+		(property "Description" ""
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-2?qs=cxy41lVAGV%2FfbyASjpXK1g%3D%3D"
-			(at 74.93 716.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 74.93 816.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "3557-2"
-			(at 74.93 916.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "0f47b6c3-c81e-482f-88e8-9ff00aa986b5")
+			(uuid "955d4c9b-36db-4765-81b7-3cfae94be9a0")
 		)
 		(pin "2"
-			(uuid "18d7cbcb-78b4-4c70-ba11-813d5106626b")
-		)
-		(pin "4"
-			(uuid "5aa2c62d-0935-4ff8-ab74-5aeb4889890e")
+			(uuid "215eb0ea-cae0-4c92-b6ec-b894b8dfe026")
 		)
 		(pin "3"
-			(uuid "a8b396d2-fc02-4525-aecb-0f49b2c0910d")
+			(uuid "9a6b03f0-fb18-4eff-bf0e-8d4b39a1fe8e")
+		)
+		(pin "4"
+			(uuid "6b4c1b19-5d2d-4ea3-95a3-e61662696064")
 		)
 		(instances
 			(project "LEDController"
 				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J8")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -5659,72 +4473,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9483f3b-db4d-4c13-8492-feec73a0081f")
-		(property "Reference" "#PWR01"
-			(at 53.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc06fd17-bc3a-421f-aedf-d836c0a542b9")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:3557-2")
 		(at 58.42 95.25 0)
 		(unit 1)
@@ -5845,132 +4593,6 @@
 			(project "LEDController"
 				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:3557-2")
-		(at 58.42 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb33bca3-4d74-4012-8688-5994c8bc6e62")
-		(property "Reference" "J9"
-			(at 68.58 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3557-2"
-			(at 68.58 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "3557-2"
-			(at 74.93 225.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=296"
-			(at 74.93 325.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "THM 2 in 1 Auto Blade Holder P/N 3557-2"
-			(at 58.42 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 74.93 525.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "534-3557-2"
-			(at 74.93 625.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-2?qs=cxy41lVAGV%2FfbyASjpXK1g%3D%3D"
-			(at 74.93 725.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 74.93 825.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "3557-2"
-			(at 74.93 925.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "507b5cd1-1784-4d6d-a899-ccb13c222b8f")
-		)
-		(pin "2"
-			(uuid "efac6b16-0a89-492b-937a-9db5aea4ff98")
-		)
-		(pin "4"
-			(uuid "747a1c21-520b-46cf-b63b-169e5fdb5cbc")
-		)
-		(pin "3"
-			(uuid "1195c0da-14ae-44c4-bb61-75341cc4eafa")
-		)
-		(instances
-			(project "LEDController"
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J9")
 					(unit 1)
 				)
 			)
