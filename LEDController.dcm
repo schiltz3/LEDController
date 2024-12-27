@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 3557-2
+D THM 2 in 1 Auto Blade Holder P/N 3557-2
+K
+F http://www.keyelco.com/product-pdf.cfm?p=296
+$ENDCMP
+#
+$CMP J115F11CH5VDCS61.5U
+D RELAY GEN PURPOSE SPDT 50A 5V
+K
+F https://www.citrelay.com/Catalog Pages/RelayCatalog/J115F1.pdf
+$ENDCMP
+#
+$CMP BCX56,135
+D BCX56-Q series - 80 V, 1 A NPN medium power transistors@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/BCX56_SER.pdf
+$ENDCMP
+#
+$CMP S1M
+D GENERAL PURPOSE SILICON RECTIFIER
+K
+F https://www.tme.com/Document/778b621937d365eccfa8eca128c210d3/s1a_s1m.pdf
+$ENDCMP
+#
+#End Doc Library

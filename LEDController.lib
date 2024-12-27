@@ -1,0 +1,127 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3557-2
+#/237823/175613/2.50/4/3/Connector
+DEF 3557-2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "3557-2" 650 200 50 H V L CNN
+F2 "3557-2" 650 100 50 H I L CNN
+F3 "http://www.keyelco.com/product-pdf.cfm?p=296" 650 0 50 H I L CNN
+F4 "THM 2 in 1 Auto Blade Holder P/N 3557-2" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "534-3557-2" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-2?qs=cxy41lVAGV%2FfbyASjpXK1g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Keystone Electronics" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3557-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model J115F11CH5VDCS61.5U
+#/15970714/175613/2.50/5/2/Relay or Contactor
+DEF J115F11CH5VDCS61.5U K 0 30 Y Y 1 F N
+F0 "K" 950 300 50 H V L CNN
+F1 "J115F11CH5VDCS61.5U" 950 200 50 H V L CNN
+F2 "J115F11CH5VDCS615U" 950 100 50 H I L CNN
+F3 "https://www.citrelay.com/Catalog Pages/RelayCatalog/J115F1.pdf" 950 0 50 H I L CNN
+F4 "RELAY GEN PURPOSE SPDT 50A 5V" 950 -100 50 H I L CNN "Description"
+F5 "20.3" 950 -200 50 H I L CNN "Height"
+F6 "CIT Relay & Switch" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "J115F11CH5VDCS61.5U" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X COIL_1 1 0 0 200 R 50 50 0 0 P
+X COIL_2 2 0 -100 200 R 50 50 0 0 P
+X COM 3 0 -200 200 R 50 50 0 0 P
+X NC 4 1100 0 200 L 50 50 0 0 N
+X NO 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BCX56,135
+#/693992/175613/2.50/4/2/Transistor BJT NPN
+DEF BCX56,135 Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "BCX56,135" 850 200 50 H V L CNN
+F2 "PBSS4360XX" 850 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/BCX56_SER.pdf" 850 0 50 H I L CNN
+F4 "BCX56-Q series - 80 V, 1 A NPN medium power transistors@en-us" 850 -100 50 H I L CNN "Description"
+F5 "" 850 -200 50 H I L CNN "Height"
+F6 "Nexperia" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BCX56,135" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-BCX56135" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/BCX56135?qs=me8TqzrmIYVGn5CbKWYVpA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BCX56,135" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bcx56135/nexperia?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X E 1 0 0 200 R 50 50 0 0 P
+X C_1 2 0 -100 200 R 50 50 0 0 P
+X B 3 1000 0 200 L 50 50 0 0 P
+X C_2 4 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model S1M
+#/15371975/175613/2.50/2/3/Diode
+DEF S1M D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "S1M" 450 100 50 H V L CNN
+F2 "DIOM5336X240N" 450 0 50 H I L CNN
+F3 "https://www.tme.com/Document/778b621937d365eccfa8eca128c210d3/s1a_s1m.pdf" 450 -100 50 H I L CNN
+F4 "GENERAL PURPOSE SILICON RECTIFIER" 450 -200 50 H I L CNN "Description"
+F5 "2.4" 450 -300 50 H I L CNN "Height"
+F6 "DC COMPONENTS CO., LTD" 450 -400 50 H I L CNN "Manufacturer_Name"
+F7 "S1M" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 450 -600 50 H I L CNN "Mouser Part Number"
+F9 "" 450 -700 50 H I L CNN "Mouser Price/Stock"
+F10 "" 450 -800 50 H I L CNN "Arrow Part Number"
+F11 "" 450 -900 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library
