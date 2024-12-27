@@ -1,0 +1,242 @@
+(footprint "TB00150004BE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TB001-500-04BE-3")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 7.5 -0.5 0)
+		(layer "F.SilkS")
+		(uuid "d18b3fba-a80a-4efd-92ec-808882603a03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TB00150004BE"
+		(at 7.5 -0.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7da73cd9-3aa1-41b7-8edb-6e89d2978c0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cba40440-ecdd-435f-b2bc-671b4ce6ab9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55cb784d-ebc1-41c0-ab99-5a1700733a76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7afeaa9-5714-4fd7-b392-a9949a9fcf65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -5)
+		(end 17.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25263484-96ca-41bf-b4ce-234d7a32f5fa")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cfb0a44-08fe-4b1f-98fd-f772d1391466")
+	)
+	(fp_line
+		(start 17.5 -5)
+		(end 17.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d84c9300-a9d0-42e2-b5c8-e78c23e0d5bc")
+	)
+	(fp_line
+		(start 17.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "712814ef-08dc-4dcd-b228-b9a23e19639b")
+	)
+	(fp_line
+		(start -3.5 -6)
+		(end 18.5 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "205bc9be-8251-4404-ab25-bc10c44918bc")
+	)
+	(fp_line
+		(start -3.5 5)
+		(end -3.5 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d04b6e31-1055-4e81-822e-613667d86f53")
+	)
+	(fp_line
+		(start 18.5 -6)
+		(end 18.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19791226-62ea-4b35-a16d-4881e2359433")
+	)
+	(fp_line
+		(start 18.5 5)
+		(end -3.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6fc2f4af-c5e9-4140-9b84-e032ec49cb1a")
+	)
+	(fp_line
+		(start -2.5 -5)
+		(end 17.5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5060d93c-a5fe-4376-9d78-856332b71dbb")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79c07164-0650-4e80-a6f7-65987aa985de")
+	)
+	(fp_line
+		(start 17.5 -5)
+		(end 17.5 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d746c523-b5de-4071-b9a4-42d45b3c3e69")
+	)
+	(fp_line
+		(start 17.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf5a1e87-5fbd-47ed-8f4a-3244f18d8dbd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 -0.5 0)
+		(layer "F.Fab")
+		(uuid "04a05d93-1d81-4eb4-9c31-bde1eb97ccc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe597a58-9478-4562-8878-92c4177c1bcf")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d141b3be-7a28-44a6-b851-112709d3e1e1")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "091f6436-ba8b-4b33-8e87-f54abd6bd8be")
+	)
+	(pad "4" thru_hole circle
+		(at 15 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a20d989e-6383-4330-880f-4c5dc2f6c17b")
+	)
+	(model "E:\\KiKadLibraries\\SamacSys_Parts.3dshapes\\TB001-500-04BE.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
