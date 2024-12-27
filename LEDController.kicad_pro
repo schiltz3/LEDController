@@ -179,6 +179,7 @@
       ],
       "track_widths": [
         0.0,
+        0.508,
         4.8387,
         21.745194,
         25.4,
@@ -465,7 +466,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.508,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -482,7 +483,7 @@
         "name": "50F",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(12, 14, 255)",
-        "track_width": 0.2,
+        "track_width": 44.5516,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -499,7 +500,7 @@
         "name": "50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.2,
+        "track_width": 44.5516,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6

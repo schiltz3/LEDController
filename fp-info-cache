@@ -1,4 +1,4 @@
-24196255489016575
+24204932187023290
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64057,12 +64057,47 @@ Capacitor Polarised
 2
 2
 LEDController
+CONN4_TB002-500_787x299_CUD
+
+TB002-500-04BE 
+0
+4
+4
+LEDController
+CONN04_VP026584_20P32X18P3_AMP
+
+VP0265840000G 
+0
+4
+4
+LEDController
+DIOM5336X240N
+S1M
+Diode
+0
+2
+2
+LEDController
+J115F11CH5VDCS615U
+J115F11CH5VDCS61.5U-2
+Relay or Contactor
+0
+5
+5
+LEDController
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
 0
 8
 8
+LEDController
+PBSS4360XX
+SOT89_4
+Transistor BJT NPN
+0
+4
+4
 LEDController
 TB00150004BE
 TB001-500-04BE-3
