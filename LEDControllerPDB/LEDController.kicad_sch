@@ -3773,7 +3773,7 @@
 		(uuid "6ac4f472-178f-4b57-88bd-51c46bd3564b")
 	)
 	(label "50F"
-		(at 139.7 62.23 0)
+		(at 135.89 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3783,7 +3783,7 @@
 		)
 		(uuid "71bf868c-158f-4c86-9a0e-bc505e438c05")
 		(property "50F" ""
-			(at 139.7 63.5 0)
+			(at 135.89 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "470"
 			(at 153.67 77.4699 0)
 			(effects
 				(font
