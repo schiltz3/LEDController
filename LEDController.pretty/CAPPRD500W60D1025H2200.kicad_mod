@@ -1,7 +1,7 @@
 (footprint "CAPPRD500W60D1025H2200"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "10x20")
 	(tags "Capacitor Polarised")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5474d210-70b6-4de7-9204-b378f78547cc")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -72,7 +60,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "ce6d61db-e994-46a7-9aeb-8eda7799a630")
 	)
@@ -83,7 +71,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "575e76db-e074-4912-ad20-838da8165cc5")
 	)
@@ -114,7 +102,8 @@
 		(remove_unused_layers no)
 		(uuid "0bf1f832-c70c-449c-8ee0-e2725e3616f4")
 	)
-	(model "E:\\KiKadLibraries\\SamacSys_Parts.3dshapes\\UVR1E102MPD.stp"
+	(embedded_fonts no)
+	(model "${LEDCONTROLLER}/LEDController.3dshapes/UVR1E102MPD.stp"
 		(offset
 			(xyz 0 0 0)
 		)

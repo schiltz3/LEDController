@@ -476,4 +476,26 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${LEDCONTROLLER}/LEDController.3dshapes/SOD-123FL_MCC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${LEDCONTROLLER}/LEDController.3dshapes/SMD110PL-TP.stp"
+		(offset
+			(xyz -0.3 2.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

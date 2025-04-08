@@ -1,7 +1,7 @@
 (footprint "3557-2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3557-2")
 	(tags "Connector")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0a6d9d30-6e7a-4c2e-9b91-2e2a3ec7e462")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -188,15 +176,16 @@
 		(remove_unused_layers no)
 		(uuid "87a4353b-3069-4342-84ed-c5e173312018")
 	)
-	(model "E:\\KiKadLibraries\\SamacSys_Parts.3dshapes\\3557-2.stp"
+	(embedded_fonts no)
+	(model "${LEDCONTROLLER}/LEDController.3dshapes/3557-2.stp"
 		(offset
-			(xyz -9.010000094 15.51 -6.320000077)
+			(xyz -9 15.5 -6.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

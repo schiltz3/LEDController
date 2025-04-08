@@ -1,7 +1,7 @@
 (footprint "J115F11CH5VDCS615U"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "J115F11CH5VDCS61.5U-2")
 	(tags "Relay or Contactor")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "74f805a9-4397-48ea-b050-883e1b0889b4")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -358,15 +346,16 @@
 		(remove_unused_layers no)
 		(uuid "f65b3426-f4dd-450a-b26e-377c58f827a3")
 	)
-	(model "E:/git/Kikad/LEDController/LECController.3dshapes/J115F11CH5VDCS61.5U.stp"
+	(embedded_fonts no)
+	(model "${LEDCONTROLLER}/LEDController.3dshapes/J115F11CH5VDCS61.5U.stp"
 		(offset
-			(xyz -3.479999967 18.43000003 3.150000048)
+			(xyz -3.5 18.5 3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -180)
+			(xyz -90 -0 -180)
 		)
 	)
 )

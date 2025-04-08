@@ -1,7 +1,7 @@
 (footprint "CONN4_TB002-500_787x299_CUD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "TB002-500-04BE ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb9e1aa0-0c9c-4ff6-81df-7a093ab531a3")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -65,17 +53,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center 3.2569 0)
-		(end 3.6379 0)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "bd69f7b7-a752-43c6-b5da-f4695d8c22aa")
-	)
 	(fp_line
 		(start -17.6219 -4.2164)
 		(end -17.6219 3.6322)
@@ -123,9 +100,20 @@
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "23de4e0f-ee47-473b-8f3c-cf8fd4d645ab")
+	)
+	(fp_circle
+		(center 3.2569 0)
+		(end 3.6379 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "bd69f7b7-a752-43c6-b5da-f4695d8c22aa")
 	)
 	(fp_line
 		(start -17.7489 -4.3434)
@@ -214,7 +202,7 @@
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "442681b7-04b3-40e6-9eba-3b6b95e4c471")
 	)
@@ -262,7 +250,8 @@
 		(remove_unused_layers no)
 		(uuid "63e15260-3bbe-4107-8779-c1973e49855c")
 	)
-	(model "E:/git/Kikad/LEDController/LECController.3dshapes/TB001-500-04BE.step"
+	(embedded_fonts no)
+	(model "${LEDCONTROLLER}/LEDController.3dshapes/TB001-500-04BE.step"
 		(offset
 			(xyz 15 5 0)
 		)
@@ -270,7 +259,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz -90 -0 90)
 		)
 	)
 )
