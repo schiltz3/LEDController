@@ -1,7 +1,7 @@
 (footprint "MODULE_NODEMCU-32S"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -9.575 -25.135 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d627bff5-8fbf-41ff-9667-d9f7909892be")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -149,7 +137,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b61c7b7d-2244-4cda-913b-b0570cb2ceb5")
 	)
@@ -280,7 +268,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2c4e353d-8062-4172-8b55-bcd64e332ecd")
 	)
@@ -626,7 +614,8 @@
 		(solder_mask_margin 0.102)
 		(uuid "f80a582e-6ae4-4ee0-99ad-dcba007c3c21")
 	)
-	(model "E:/git/Kikad/LEDController/LECController.3dshapes/NODEMCU-32S.step"
+	(embedded_fonts no)
+	(model "${LEDCONTROLLER}/LEDController.3dshapes/NODEMCU-32S.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -634,7 +623,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

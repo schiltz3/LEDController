@@ -5,7 +5,7 @@
 	(uuid "62aa0f20-cf9c-44ed-8f8b-d852f912cf95")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,15 +14,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_02x02_Counter_Clockwise"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,21 +47,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -73,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,44 +74,43 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
 				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(rectangle
-					(start 0.8636 0.127)
+					(start -1.27 0.127)
 					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 -2.413)
+					(start -1.27 -2.413)
 					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -128,22 +119,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -153,7 +131,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -171,7 +149,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -189,7 +167,25 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -483,178 +479,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LEDController:0389690002"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "0389690002"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "0389690002"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1526058.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Barrier Terminal Blocks .250 TRI BARRIER 02P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "22.9"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Molex"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "0389690002"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "N/A"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/0389690002?qs=kxSDgj%2F7uuk2peGCxlu7bA%3D%3D"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "0389690002"
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "0389690002_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LEDController:3557-2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -833,6 +657,330 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LEDController:647676-3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.58 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "647676-3"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDController:TE_647676-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "647676-3_0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LEDController:HB9500-9.5-2P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "HB9500-9.5-2P"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SHDR2W140P0X950_1X2_2055X1800X1440P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Ningbo-Kangnex-Elec-Ningbo-Kangnex-Elec-HB9500-2P-black_C60785.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Barrier Block 2 2 0.374\"(9.50mm) 12-22 AWG P=9.5mm Barrier Terminal Blocks"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "14.4"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Ningbo Kangnex"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "HB9500-9.5-2P"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "HB9500-9.5-2P_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2869,6 +3017,12 @@
 		(uuid "237413a9-0a9d-4881-a715-ae2fd39ae9e6")
 	)
 	(junction
+		(at 185.42 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2deb3a4f-1410-4581-9a2b-c71bd3b67c37")
+	)
+	(junction
 		(at 54.61 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2939,6 +3093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b09fae3d-5609-472d-943b-797610bda97c")
+	)
+	(junction
+		(at 171.45 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7a9dfe0-b9e4-49a5-81ee-f530e4024a8a")
 	)
 	(junction
 		(at 74.93 59.69)
@@ -3094,6 +3254,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 62.23) (xy 190.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cbeeab-f825-4b17-ba48-9dcf587a6149")
+	)
+	(wire
+		(pts
 			(xy 95.25 62.23) (xy 99.06 62.23)
 		)
 		(stroke
@@ -3124,7 +3294,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 43.18) (xy 165.1 43.18)
+			(xy 134.62 48.26) (xy 165.1 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3174,13 +3344,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 36.83) (xy 167.64 34.29)
+			(xy 167.64 41.91) (xy 167.64 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3e42e4b8-cbcf-4603-806c-75394ab5b147")
+	)
+	(wire
+		(pts
+			(xy 170.18 49.53) (xy 170.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4947adc0-2caa-4559-a33c-0d4769065015")
 	)
 	(wire
 		(pts
@@ -3201,6 +3381,16 @@
 			(type default)
 		)
 		(uuid "58e75c5d-684c-401e-8ecb-e16ca42532d0")
+	)
+	(wire
+		(pts
+			(xy 185.42 57.15) (xy 190.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6051311a-7575-498b-bd60-97e1103db23e")
 	)
 	(wire
 		(pts
@@ -3294,7 +3484,27 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 62.23) (xy 173.99 62.23)
+			(xy 185.42 57.15) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c19c20d-ddd5-4086-97e6-47e722f266b6")
+	)
+	(wire
+		(pts
+			(xy 187.96 59.69) (xy 187.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f147d96-9805-411c-8722-602677deb24a")
+	)
+	(wire
+		(pts
+			(xy 160.02 62.23) (xy 171.45 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3311,16 +3521,6 @@
 			(type default)
 		)
 		(uuid "95d857a7-b849-4eba-8236-2505862cc1e5")
-	)
-	(wire
-		(pts
-			(xy 170.18 49.53) (xy 170.18 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e6dab2-32dc-4737-acee-814d311dc518")
 	)
 	(wire
 		(pts
@@ -3364,16 +3564,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 27.94) (xy 157.48 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e1f482a-1426-48c8-8eeb-531bc4c0bc4f")
-	)
-	(wire
-		(pts
 			(xy 39.37 78.74) (xy 52.07 78.74)
 		)
 		(stroke
@@ -3404,6 +3594,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 25.4) (xy 142.24 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fa419c-dc6c-48ce-999c-0b0dede66725")
+	)
+	(wire
+		(pts
 			(xy 52.07 86.36) (xy 52.07 78.74)
 		)
 		(stroke
@@ -3424,7 +3624,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 34.29) (xy 170.18 49.53)
+			(xy 170.18 39.37) (xy 170.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3471,6 +3671,16 @@
 			(type default)
 		)
 		(uuid "b72cadb4-b04a-42ed-af39-80a008833c78")
+	)
+	(wire
+		(pts
+			(xy 184.15 62.23) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a517cd-d8c7-421c-b285-5e2601e7e8c3")
 	)
 	(wire
 		(pts
@@ -3544,7 +3754,27 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 111.76 82.55)
+			(xy 184.15 59.69) (xy 187.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c2a816-3d24-4866-8c26-bf115b9ce554")
+	)
+	(wire
+		(pts
+			(xy 130.81 22.86) (xy 130.81 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c791ee62-bd9e-4ed1-9bfb-1c123fcfbe61")
+	)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 134.62 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3584,7 +3814,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 43.18) (xy 134.62 82.55)
+			(xy 171.45 59.69) (xy 171.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d554a536-17fb-4fb5-91a2-530a76b5e30c")
+	)
+	(wire
+		(pts
+			(xy 134.62 48.26) (xy 134.62 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3634,17 +3874,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 82.55) (xy 125.73 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea8ed61e-4002-4100-86ed-12fb5346327a")
-	)
-	(wire
-		(pts
-			(xy 165.1 43.18) (xy 165.1 34.29)
+			(xy 165.1 48.26) (xy 165.1 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3694,7 +3924,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 58.42) (xy 173.99 58.42)
+			(xy 170.18 57.15) (xy 185.42 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3714,7 +3944,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 27.94) (xy 137.16 27.94)
+			(xy 130.81 22.86) (xy 142.24 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3743,7 +3973,7 @@
 		(uuid "fcff1237-0cbf-4bd1-a7ce-2c2c210c95e2")
 	)
 	(label "5V"
-		(at 170.18 48.26 0)
+		(at 170.18 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3763,7 +3993,7 @@
 		(uuid "53517b03-810d-43ee-a6fe-e3f68b9f5879")
 	)
 	(label "50U"
-		(at 137.16 27.94 0)
+		(at 137.16 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3793,18 +4023,27 @@
 			)
 		)
 	)
+	(label "Relay Controll"
+		(at 165.1 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7840d93-c2eb-4e3b-9ec3-f3f988698224")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 34.29 0)
+		(at 139.7 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "007443c9-7384-4832-ae64-d815637ef4b8")
 		(property "Reference" "#PWR011"
-			(at 157.48 40.64 0)
+			(at 133.35 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +4052,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 39.37 0)
+			(at 139.7 27.432 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +4060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 34.29 0)
+			(at 139.7 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,7 +4069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 34.29 0)
+			(at 139.7 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +4078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 34.29 0)
+			(at 139.7 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,6 +4648,148 @@
 		)
 	)
 	(symbol
+		(lib_id "LEDController:HB9500-9.5-2P")
+		(at 142.24 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "231b6731-745b-4dcd-b4a7-b8bcf8affe09")
+		(property "Reference" "J8"
+			(at 158.75 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HB9500-9.5-2P"
+			(at 158.75 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SHDR2W140P0X950_1X2_2055X1800X1440P"
+			(at 158.75 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Ningbo-Kangnex-Elec-Ningbo-Kangnex-Elec-HB9500-2P-black_C60785.pdf"
+			(at 158.75 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Barrier Block 2 2 0.374\"(9.50mm) 12-22 AWG P=9.5mm Barrier Terminal Blocks"
+			(at 142.24 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "14.4"
+			(at 158.75 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Ningbo Kangnex"
+			(at 158.75 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HB9500-9.5-2P"
+			(at 158.75 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 158.75 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 158.75 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 158.75 917.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 158.75 1017.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68538a48-1f76-49b7-8825-65e50190fe7c")
+		)
+		(pin "1"
+			(uuid "6b0e4960-3158-467e-a520-1a2149d09b0b")
+		)
+		(instances
+			(project ""
+				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 160.02 66.04 270)
 		(unit 1)
@@ -4876,73 +5257,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 121.92 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "637331be-7c75-4c5c-9dcc-e19b9a18ed8b")
-		(property "Reference" "R1"
-			(at 122.174 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 122.174 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 121.92 80.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 121.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f8cfa060-991a-4a29-8017-55ee049b9f6a")
-		)
-		(pin "1"
-			(uuid "f1017c86-ce2f-4b9e-b60b-bfbdbfb26802")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:DMP3099L")
 		(at 151.13 64.77 90)
 		(unit 1)
@@ -5248,32 +5562,44 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 167.64 29.21 270)
+		(lib_id "LEDController:647676-3")
+		(at 167.64 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "96d1240e-0412-46da-9c34-5bd9124834f7")
-		(property "Reference" "J9"
-			(at 167.64 24.13 90)
+		(uuid "9d0344dc-d848-41fb-852e-0f63cca6e1af")
+		(property "Reference" "J13"
+			(at 173.99 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 167.64 26.67 90)
+		(property "Value" "647676-3"
+			(at 173.99 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "LEDController:TE_647676-3"
+			(at 167.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
 			(at 167.64 29.21 0)
 			(effects
 				(font
@@ -5282,7 +5608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Description" ""
 			(at 167.64 29.21 0)
 			(effects
 				(font
@@ -5291,28 +5617,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "PARTREV" "R"
 			(at 167.64 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "d34e60f3-3053-4f7f-9ce7-1fe9abb69d4f")
+		(property "MANUFACTURER" "TE"
+			(at 167.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "337ca764-a6ff-482a-ba27-f86af1152efb")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 167.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "1efbf0cf-98ec-4902-b9ce-2dc233f88c67")
+			(uuid "5582cb62-0c08-44c0-ac12-4c77c2f40808")
+		)
+		(pin "2"
+			(uuid "f7aca706-2b07-4712-9f13-bda32279b134")
+		)
+		(pin "3"
+			(uuid "59120bce-efc5-4a48-ae6d-13d1c53d86c2")
 		)
 		(instances
 			(project ""
 				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J9")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -5656,146 +6003,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LEDController:0389690002")
-		(at 137.16 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aee73a1c-dd5b-4c2e-a688-da2f136ecdb1")
-		(property "Reference" "J7"
-			(at 147.32 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0389690002"
-			(at 147.32 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0389690002"
-			(at 153.67 122.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1526058.pdf"
-			(at 153.67 222.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Barrier Terminal Blocks .250 TRI BARRIER 02P"
-			(at 137.16 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "22.9"
-			(at 153.67 422.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 153.67 522.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0389690002"
-			(at 153.67 622.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at 153.67 722.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/0389690002?qs=kxSDgj%2F7uuk2peGCxlu7bA%3D%3D"
-			(at 153.67 822.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0389690002"
-			(at 153.67 922.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
-			(at 153.67 1022.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3bfa761f-79bf-46ed-b61f-1b4420d3537e")
-		)
-		(pin "1"
-			(uuid "6a558f25-0d28-4577-9cf5-9e0f6bf7fca5")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 82.55 0)
 		(unit 1)
@@ -5863,7 +6070,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 36.83 0)
+		(at 167.64 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5872,7 +6079,7 @@
 		(fields_autoplaced yes)
 		(uuid "b32479b8-50f2-4967-bf33-c0ff277d88e4")
 		(property "Reference" "#PWR03"
-			(at 167.64 43.18 0)
+			(at 167.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +6088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 41.91 0)
+			(at 167.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +6096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 36.83 0)
+			(at 167.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +6105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 36.83 0)
+			(at 167.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +6114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 36.83 0)
+			(at 167.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,6 +6405,80 @@
 			(project "LEDController"
 				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 176.53 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce30791e-448a-4c53-a90c-70d3f8938b86")
+		(property "Reference" "J7"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02_Row_Letter_First"
+			(at 177.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+			(at 176.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 176.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44080255-f9ec-48f6-8773-9ae83f7d4165")
+		)
+		(pin "1"
+			(uuid "35b5109a-d2a9-4bc4-8422-e49d1741e488")
+		)
+		(pin "3"
+			(uuid "f9e0a0c5-54f4-4d20-9ca6-4e7be29c1a86")
+		)
+		(pin "4"
+			(uuid "59e3885e-b422-4cec-96a8-d8d1defb933d")
+		)
+		(instances
+			(project ""
+				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6657,7 +6938,7 @@
 		)
 	)
 	(sheet
-		(at 173.99 53.34)
+		(at 190.5 53.34)
 		(size 7.62 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6673,7 +6954,7 @@
 		)
 		(uuid "8ec80212-ac11-44f6-8e5c-95ccc02e4e68")
 		(property "Sheetname" "5VReg"
-			(at 173.99 52.6284 0)
+			(at 190.5 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6963,7 @@
 			)
 		)
 		(property "Sheetfile" "5VRegulator.kicad_sch"
-			(at 173.99 66.6246 0)
+			(at 190.5 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6972,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 173.99 62.23 180)
+			(at 190.5 62.23 180)
 			(uuid "d341dbad-e64b-4ead-806f-a65efec9cedd")
 			(effects
 				(font
@@ -6701,7 +6982,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 173.99 58.42 180)
+			(at 190.5 57.15 180)
 			(uuid "1190116d-b09c-44a5-8e03-85f67861a5bd")
 			(effects
 				(font
