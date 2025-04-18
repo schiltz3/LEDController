@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "62aa0f20-cf9c-44ed-8f8b-d852f912cf95")
 	(paper "A4")
+	(title_block
+		(title "LED Power Distribution Board")
+		(date "2025-04-18")
+		(rev "02")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
 			(pin_names
@@ -2994,6 +2999,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 142.24 50.8)
+		(end 170.18 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7d4f16d7-4a58-4384-a9cd-d33cb596f840)
+	)
+	(text "Reverse Current Protection"
+		(exclude_from_sim no)
+		(at 156.464 52.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "261b25ca-bbbb-42b1-9a18-b20fdb75536c")
+	)
 	(text "These can Hold ATC, ATO, Miniature (Low Profile) (ATT)"
 		(exclude_from_sim no)
 		(at 67.818 39.37 0)
@@ -3017,7 +3044,7 @@
 		(uuid "237413a9-0a9d-4881-a715-ae2fd39ae9e6")
 	)
 	(junction
-		(at 185.42 57.15)
+		(at 193.04 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2deb3a4f-1410-4581-9a2b-c71bd3b67c37")
@@ -3095,7 +3122,7 @@
 		(uuid "b09fae3d-5609-472d-943b-797610bda97c")
 	)
 	(junction
-		(at 171.45 62.23)
+		(at 179.07 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7a9dfe0-b9e4-49a5-81ee-f530e4024a8a")
@@ -3254,7 +3281,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 62.23) (xy 190.5 62.23)
+			(xy 195.58 62.23) (xy 198.12 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3354,7 +3381,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 49.53) (xy 170.18 57.15)
+			(xy 177.8 49.53) (xy 177.8 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3384,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 57.15) (xy 190.5 57.15)
+			(xy 193.04 57.15) (xy 198.12 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3474,6 +3501,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 62.23) (xy 179.07 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8364b58d-e273-40d6-b4fb-165758ce4fd7")
+	)
+	(wire
+		(pts
 			(xy 95.25 60.96) (xy 95.25 62.23)
 		)
 		(stroke
@@ -3484,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 57.15) (xy 185.42 62.23)
+			(xy 193.04 57.15) (xy 193.04 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3494,23 +3531,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 59.69) (xy 187.96 62.23)
+			(xy 195.58 59.69) (xy 195.58 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8f147d96-9805-411c-8722-602677deb24a")
-	)
-	(wire
-		(pts
-			(xy 160.02 62.23) (xy 171.45 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90359821-3b96-4969-b12f-02c64939f6e6")
 	)
 	(wire
 		(pts
@@ -3674,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 62.23) (xy 185.42 62.23)
+			(xy 191.77 62.23) (xy 193.04 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3754,7 +3781,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 59.69) (xy 187.96 59.69)
+			(xy 191.77 59.69) (xy 195.58 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3771,6 +3798,16 @@
 			(type default)
 		)
 		(uuid "c791ee62-bd9e-4ed1-9bfb-1c123fcfbe61")
+	)
+	(wire
+		(pts
+			(xy 177.8 49.53) (xy 170.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83dc5b1-5731-4577-b1b4-cf1f20ac117e")
 	)
 	(wire
 		(pts
@@ -3814,7 +3851,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 59.69) (xy 171.45 62.23)
+			(xy 179.07 59.69) (xy 179.07 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3924,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 57.15) (xy 185.42 57.15)
+			(xy 177.8 57.15) (xy 193.04 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3973,7 +4010,7 @@
 		(uuid "fcff1237-0cbf-4bd1-a7ce-2c2c210c95e2")
 	)
 	(label "5V"
-		(at 170.18 53.34 0)
+		(at 177.8 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5340,73 +5377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 34.29 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cc5a813-b60f-4a26-b870-de2c3cafac4d")
-		(property "Reference" "#PWR01"
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13b07047-f785-4988-883c-6c86213bb9e7")
-		)
-		(instances
-			(project ""
-				(path "/62aa0f20-cf9c-44ed-8f8b-d852f912cf95"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:MMBT2222A")
 		(at 111.76 77.47 90)
 		(unit 1)
@@ -6412,16 +6382,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 176.53 59.69 0)
+		(at 184.15 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce30791e-448a-4c53-a90c-70d3f8938b86")
 		(property "Reference" "J7"
-			(at 177.8 53.34 0)
+			(at 185.166 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +6398,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Row_Letter_First"
-			(at 177.8 55.88 0)
+			(at 185.166 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,7 +6406,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
-			(at 176.53 59.69 0)
+			(at 184.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 59.69 0)
+			(at 184.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +6424,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 176.53 59.69 0)
+			(at 184.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,13 +6907,12 @@
 		)
 	)
 	(sheet
-		(at 190.5 53.34)
+		(at 198.12 53.34)
 		(size 7.62 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -6954,7 +6922,7 @@
 		)
 		(uuid "8ec80212-ac11-44f6-8e5c-95ccc02e4e68")
 		(property "Sheetname" "5VReg"
-			(at 190.5 52.6284 0)
+			(at 198.12 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,7 +6931,7 @@
 			)
 		)
 		(property "Sheetfile" "5VRegulator.kicad_sch"
-			(at 190.5 66.6246 0)
+			(at 198.12 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +6940,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 190.5 62.23 180)
+			(at 198.12 62.23 180)
 			(uuid "d341dbad-e64b-4ead-806f-a65efec9cedd")
 			(effects
 				(font
@@ -6982,7 +6950,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 190.5 57.15 180)
+			(at 198.12 57.15 180)
 			(uuid "1190116d-b09c-44a5-8e03-85f67861a5bd")
 			(effects
 				(font
