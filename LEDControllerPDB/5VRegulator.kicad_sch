@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "cc26c9e0-3393-4916-a053-fefeaf734d47")
 	(paper "A4")
+	(title_block
+		(title "5V Regulator")
+		(date "2025-04-18")
+		(rev "01")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
